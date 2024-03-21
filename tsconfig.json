@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    // Ensures emitted code is ES Module format
+    "declaration": true, // If you want .d.ts files generated
+    // Other settings that enforce module boundaries and strictness checks
+    "isolatedModules": true,
+    // "noEmit": false, // Set to false to ensure code is emitted
+    "allowSyntheticDefaultImports": true // Allow default imports from modules with no default export
+  },
+  "include": ["src/**/*"]
+}
